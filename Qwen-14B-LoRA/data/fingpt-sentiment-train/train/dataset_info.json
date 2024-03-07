@@ -1,0 +1,37 @@
+{
+  "citation": "",
+  "dataset_size": 18860715,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/FinGPT/fingpt-sentiment-train/resolve/a2701f2155c1371ba38b92a2c41e8b0c0fca7614/data/train-00000-of-00001-dabab110260ac909.parquet": {
+      "num_bytes": 6417302,
+      "checksum": null
+    }
+  },
+  "download_size": 6417302,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 25278017,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 18860715,
+      "num_examples": 76772,
+      "dataset_name": "parquet"
+    }
+  }
+}
